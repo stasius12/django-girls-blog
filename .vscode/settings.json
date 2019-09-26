@@ -6,5 +6,13 @@
         "--ignore=E402,F841,F401,E302,E305",
     ],
     "python.linting.pylintEnabled": false,
-    "python.linting.enabled": true
+    "python.linting.enabled": true,
+    "[python]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 4
+    },
+    "[html]": {
+        // "editor.insertSpaces": true,
+        "editor.tabSize": 2
+    },
 }
